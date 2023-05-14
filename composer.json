@@ -1,20 +1,20 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/uyghur",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Uyghur language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/uyghur",
 	"keywords": [
 		"locale",
 		"flarum",
 		"flarum-locale",
-		"xx-locale",
-		"xxish-locale",
-		"xxish"
+		"ug-locale",
+		"uyghur-locale",
+		"uyghur"
 	],
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/uyghur/issues",
+		"source": "https://github.com/flarum-lang/uyghur"
 	},
 	"require": {
 		"flarum/core": "^1.6"
@@ -23,7 +23,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Uyghur",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -32,8 +32,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "ug",
+			"title": "Uyghur"
 		},
 		"extiverse": {
 			"discuss": ""
