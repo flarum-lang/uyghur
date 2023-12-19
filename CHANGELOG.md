@@ -13,6 +13,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
 * [`flarum/lock`](https://github.com/flarum/lock)
 
 
