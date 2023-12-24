@@ -299,7 +299,7 @@ core:
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'مۇھاكىمە باشقۇرۇش ئېچىلما تىزىملىكىنى ئۆزگەرتىش'
+      toggle_dropdown_accessible_label: 'مۇھاكىمە باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش'
     discussion_list:
       empty_text: 'تېخى مۇھاكىمىلەر يوق.'
       load_more_button: '=> core.ref.load_more'
@@ -346,3 +346,57 @@ core:
       top_button: باش
     log_in:
       forgot_password_link: 'مەخپىي نومۇرنى ئۇنتۇپسىزمۇ؟'
+      invalid_login_message: 'كىرىش ئۇچۇرلىرىڭىز خاتا.'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: 'ئەستە ساقلا'
+      sign_up_text: 'ھېسابىڭىز يوقمۇ؟<a>تىزىملىتىڭ</a>'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: 'قوللانچى ئىسمى ياكى ئېلىكتىرونلۇق خەت ئادرېسى'
+    notifications:
+      delete_all_confirm: 'راستىنلا بارلىق ئەسكەرتىشلەرنى ئۆچۈرەمسىز؟ بۇلارنى قايتۇرۋالغىلى بولمايدۇ'
+      delete_all_tooltip: 'بارلىق ئەسكەرتىشلەرنى ئۆچۈرۈش'
+      discussion_renamed_text: '{username} ماۋزۇنى ئۆزگەرتتى'
+      empty_text: 'ئەسكەرتىش يوق'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_as_read_tooltip: 'ئوقۇلدى قىلىش'
+      title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'ئەسكەرتىشلەرنى كۆرۈش'
+      tooltip: '=> core.ref.notifications'
+    post:
+      edited_text: تەھرىرلەندى
+      edited_tooltip: '{username} {ago} تەھرىرلىدى'
+      number_tooltip: 'يوللانما #{number}'
+    post_controls:
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟ ئۇنى قايتۇرۋالغىلى بولمايدۇ.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      edit_button: '=> core.ref.edit'
+      hide_confirmation: 'بۇ يوللانمىنى راستىنلا ئۆچۈرەمسىز؟'
+      restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'يوللانما باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش'
+    post_scrubber:
+      now_link: ھازىر
+      original_post_link: 'ئەسلىدىكى يوللانما'
+      unread_text: '{count} ئوقۇلمىدى'
+      viewing_text: '{count, plural, one {{index} of {formattedCount} يوللانما} other {{index} of {formattedCount} يوللانمىلار}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'ئەسلىدىكى ماۋزۇسى :«{old}»'
+      discussion_renamed_text: '{username} {time} دا ماۋزۇنى {new} گە ئۆزگەرتتى.'
+      load_more_button: '=> core.ref.load_more'
+      reply_placeholder: '=> core.ref.write_a_reply'
+      time_lapsed_text: '{period} ئۆتكەندىن كېيىن'
+    rename_discussion:
+      submit_button: '=> core.ref.rename'
+      title: 'مۇھاكىمىنى ئۆزگەرتىش'
+    search:
+      all_discussions_button: '«{query}» نى بارلىق مۇھاكىمىلەردىن ئىزدەش'
+      discussions_heading: '=> core.ref.discussions'
+      users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} {os} دا'
+    user_controls:
+      toggle_dropdown_accessible_label: 'قوللانچى باشقۇرۇش تاللاشلىرىنى ئالماشتۇرۇش'
+  lib:
+    dropdown:
+      toggle_dropdown_accessible_label: 'ئېچىلدىغان تىزىملىكنى ئالماشتۇرۇش'
