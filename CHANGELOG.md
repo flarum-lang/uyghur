@@ -13,10 +13,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
-* [`flarum/akismet`](https://github.com/flarum/akismet)
-* [`flarum/approval`](https://github.com/flarum/approval)
-* [`flarum/bbcode`](https://github.com/flarum/bbcode)
-* [`flarum/lock`](https://github.com/flarum/lock)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (18% complete)
+* [`flarum/akismet`](https://github.com/flarum/akismet) (87% complete)
+* [`flarum/approval`](https://github.com/flarum/approval) (77% complete)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode) (100% complete)
+* [`flarum/lock`](https://github.com/flarum/lock) (72% complete)
 
 
