@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/uyghur",
+	"description": "Uyghur Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Uyghur language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/uyghur",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"ug-locale",
-		"uyghur-locale",
-		"uyghur"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/uyghur",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/uyghur/issues",
+		"forum": "https://discuss.flarum.org/d/40221",
 		"source": "https://github.com/flarum-lang/uyghur"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Uyghur",
@@ -33,13 +27,8 @@
 		},
 		"flarum-locale": {
 			"code": "ug",
-			"title": "Uyghur"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "ئۇيغۇرچە",
+			"direction": "rtl"
 		}
 	}
 }
